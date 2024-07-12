@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("img/background.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+
+h1 {
+    color: beige;
+    margin-left: 10%;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0 65%;
+    
+
+}
+
+.head {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+
+.navigation li {
+    position: relative;
+    font-size: 18px;
+    font-family: monospace;
+    text-transform: capitalize;
+    color:beige;
+    
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: beige;
+    margin-right: 20px;
+}
+
+
+
+.text h2 {
+    color:antiquewhite;
+    width: 200px;
+    margin-top: 14%;
+    margin-left: 10%;
+}
+
+.text p {
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 12px;
+}
+
+.text button {
+    margin-top: 15px;
+    margin-left: 10%;
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 0;
+    padding: 5px;
+}
+
+.text1 h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-family:monospace;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+.text1 pre {
+    text-align: center;
+    margin-top: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(66, 65, 65);
+
+}
+
+/*
+.i1 img {
+
+    width:200px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 36%;
+
+
+}
+
+.i2 img {
+    width:200px;
+    height: 200px;
+
+}
+
+.i3 img {
+    width:200px;
+    height: 200px;
+    margin-left: 36%;
+}
+
+.i4 img{
+    width:200px;
+    height: 200px;
+}
+
+*/
+
+.container {
+
+    width: 80%;
+    margin: auto;
+}
+
+.studio-imgs img {
+    width: 40%;
+    margin:3% 3%;
+}
+
+.girls-title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(122, 116, 116);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.girls img {
+    width:100%;
+    margin-bottom: 35px;
+}
+
+.girls-content {
+    float: left;
+    width: 20%;
+    margin: 0 2%;
+}
+
+.girls-text {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.girls-text h5 {
+    color: rgb(119, 119, 106);
+    font-size: 12px;
+}
+
+
+
+.login {
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url(img/5.jpg) ;
+    background-size: cover;
+    margin-top: 25%;
+    
+}
+
+.login .container {
+    margin-left: 30%;
+    margin-bottom: 40%;
+
+}
+
+.login .login-title {
+    margin-top: 25%;
+    font-size: 36px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    text-transform: capitalize;
+    color: rgba(202, 221, 228, 0.826);
+}
+
+.login .name-email {
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+.login .name-email .name {
+    margin-right: 15px;
+    width: 25%;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 40px;
+    padding: 5px;
+}
+
+.login .name-email .email {
+    width: 28.2%;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 40px;
+    padding: 5px;
+}
+
+
+.login .sub-message {
+    width: 100%;
+
+    
+}
+
+.login .subject {
+    width: 55.7%;
+    margin-right: 15px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.login .sub-message .message {
+    text-transform: capitalize;
+    width: 55.7%;
+    line-height:40px ;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    
+}
+
+
+.login .sub-message .submit {
+    background-color: rgb(5, 169, 109);
+    color: white;
+    width: 10%;
+    border-radius: 2px;
+    padding: 5px;
+    border: 0;
+    margin-left: 23%;
+    margin-top: 15px;
+}
+
+
+
+.footer-studio {
+    float: left;
+    width: 30%;
+    margin: 3% 1%;
+}
+
+
+.footer-studio .footer-title {
+    margin-top: 40%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(120, 134, 144);
+    
+}
+
+.footer-studio .footer-des {
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.footer-studio .c {
+    margin-top: 50px;
+    font-family: monospace;
+    color: rgb(88, 90, 91);
+}
+
+
+
+.footer-studio .keep {
+    margin-top: 40%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(120, 134, 144);
+
+}
+
+
+.footer-studio .keep-in {
+    margin-top: 10px;
+}
+
+
+.footer-studio .us {
+    margin-top: 40%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(120, 134, 144);
+}
+
+
+.footer-studio .about {
+    margin-top: 10px;
+}
+
+
+.footer-studio .lists{
+    position: absolute;
+}
+
+.footer-studio .lists a {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
